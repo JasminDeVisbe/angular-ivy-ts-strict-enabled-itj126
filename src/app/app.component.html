@@ -1,0 +1,6 @@
+<hello name="{{ name }}"></hello>
+<p>Wait 5 seconds to see some magic happen :)</p>
+
+<div *ngFor="let item of myObservableArray$ | async">
+  {{ item.value }}
+</div>
